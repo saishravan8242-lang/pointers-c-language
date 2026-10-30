@@ -1,7 +1,6 @@
 # pointers-c-language
 
-
-int a = 5, b = 4;
-int *p1 = &a, *p2 = &b;
-
-int result = (*p1) * (*p2);
+ We declare two variables, `a` and `b`, with values 5 and 4.
+ We use pointers to store the addresses of these two variables.
+ We multiply the values using pointers and store the answer in `result`.
+ Finally, we print the multiplication result, which is 20.
